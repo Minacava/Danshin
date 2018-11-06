@@ -1,0 +1,16 @@
+/* NAVBAR  */
+
+.bg-light {
+    background-color: #fff !important;
+  }
+
+  .btn-outline-success{
+    color: #cc1db9;
+    background-color: #fff;
+    border-color: #cc1db9;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #cc1db9;
+    border-color: #cc1db9;
+}

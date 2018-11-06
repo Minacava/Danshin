@@ -1,0 +1,27 @@
+.jumbotron{
+    background-color: #ffffff;
+}
+form{
+ margin-top: 3%;
+}
+h1,h5{
+  
+    margin: 20px 0 0 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: type 4s steps(80, end); 
+  }
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+.btn-outline-success{
+    color: #cc1db9;
+    background-color: #fff;
+    border-color: #cc1db9;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #cc1db9;
+    border-color: #cc1db9;
+}
