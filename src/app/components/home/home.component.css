@@ -25,3 +25,15 @@ h1,h5{
     background-color: #cc1db9;
     border-color: #cc1db9;
 }
+
+/* Call to Action */
+.card{
+    border: none;
+    border-radius: 0rem;
+    height: 190px;
+}
+.card-img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 190px;
+}
