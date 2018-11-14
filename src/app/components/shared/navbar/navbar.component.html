@@ -8,14 +8,30 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['Home']" >Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" [routerLink]="['Home']" >Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link"[routerLink]="['About']" >About The Company</a>
+        <a class="nav-link"[routerLink]="['About']" >La Compañia</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" [routerLink]="['Houses']">Houses</a>
+          <a class="nav-link" [routerLink]="['Houses']">Propiedades</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link"><i class="fab fa-facebook"></i></a>
+            </li>
+ 
     </ul>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['Houses']">Registro</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['Houses']">Login</a>
+    </li>
+  </ul>
+  
   </div>
 </nav>
