@@ -9,18 +9,22 @@ import { Observable } from 'rxjs';
 export class PropertiesService {
   public url: string;
   public zwsid: string;
+  public key: string;
   public city: string;
+  public jsonObject: any;
+  public results: string;
   constructor(
-    public _http: HttpClient
+  public _http: HttpClient
 
   ) {
-    this.url = ' http://www.zillow.com/webservice/GetUpdatedPropertyDetails.htm?';
-    this.zwsid = 'X1-ZWz1gr1g0brvuz_13bwv';
-    this.city = 'Seattle';
+
+    // tslint:disable-next-line:max-line-length
+    this.url = 'http://api.nestoria.co.uk/api?country=uk&action=search_listings&encoding=json&listing_type=buy&place_name=';
+    this.city = 'london';
+    this.results = '&number_of_results="3"';
 }
 
 getTheProp(): Observable<any> {
-  return this._http.get(this.url + this.zwsid + this.city);
-    console.log ( 'servicio listo');
+  return this._http.get(this.url + this.city );
    }
 }

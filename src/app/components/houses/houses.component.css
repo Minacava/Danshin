@@ -1,0 +1,24 @@
+/* Call to Action */
+.card{
+    border: none;
+    border-radius: 0rem;
+    height: auto;
+}
+.card-text{
+    font-size: 0.8em
+}
+.container-img{
+    position: relative;
+}
+.container-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: white;
+    font-size:2em;
+}
+  
+.container-icon-heart {
+    background-color: #DB3545;
+    border-radius: 20%;      
+}

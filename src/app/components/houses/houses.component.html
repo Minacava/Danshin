@@ -1,3 +1,27 @@
-<p>
-  houses works!
-</p>
+
+<!-- Call the action Cards -->
+<div class="container mt-4">
+  <div class="row" >
+    <div class="col-sm my-5"*ngFor = "let house of houses" >
+        <div class="card" style="width: 18rem;">
+          <div class = 'container-img'>
+              <img class="card-img-top" src="{{house.img_url}}"alt="Card image cap">
+              <div (click)= "selectTheFavorite()">
+                  <i class="far container-icon fa-heart"></i>
+              </div>
+          </div>
+            <a href="#" class="btn btn-light"><i class="fas fa-envelope-square"></i></a>
+            <div class="card-body">
+              <h3 class="card-text">£{{house.price}} {{house.bedroom_number}} <i class="fas fa-bed icon-home"></i>   2  <i class="fas fa-bath icon-home"></i>  100m2</h3>  
+              <p class="card-text lead">{{house.title}} </p>
+            </div>
+          </div>
+    </div>
+    <div class="card mt-5" style="width: 18rem;"> 
+       <h5 class= "h1 text-center mb-5">
+        Need help getting started?</h5>  
+      <a href="#" class="btn btn-danger"><i class="fas fa-envelope-square"></i></a>
+      </div>
+</div>
+
+

@@ -31,7 +31,7 @@ form{
 .card{
     border: none;
     border-radius: 0rem;
-    height: 190px;
+    height: auto;
 }
 .card-text{
     font-size: 0.8em
@@ -47,4 +47,7 @@ form{
     font-size:2em;
 }
   
- 
+.container-icon-heart {
+    background-color: #DB3545;
+    border-radius: 20%;      
+}

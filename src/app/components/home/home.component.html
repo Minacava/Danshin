@@ -1,26 +1,26 @@
 <div class="jumbotron">
-  <h1 class="display-4 home-title">Discover Your Perfect Home</h1>
+  <h1 class="display-4 home-title">Discover Your Perfect Home Today</h1>
   <hr class="my-4">
-  <h5 class = "home-title"> Este es el camino a tu nueva casa.</h5>
+
   <div class="ml-3 mt-4 ">
 
-      <form class="form-inline my-5 my-lg-0 ">
+      <form class="form-inline my-1 my-lg-0 ">
           <input class="form-control mr-sm-2" type="search" placeholder="Ciudad" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
         </form>
   </div>
 </div>
-<hr class="my-4">
+<hr class="my-1">
 
 <!-- Call the action Cards -->
-
 <div class="container">
+    <h2 class = "tracking-in-expand">Latest Property</h2>
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm" >
         <div class="card" style="width: 18rem;">
           <div class = 'container-img'>
               <img class="card-img-top" src="assets/img/1.jpg"alt="Card image cap">
-            <i class="far container-icon fa-heart"></i>
+            <i (click)= "selectTheFavorite()" class="far container-icon fa-heart"></i>
           </div>
             <a href="#" class="btn btn-light"><i class="fas fa-envelope-square"></i></a>
             <div class="card-body">
@@ -33,7 +33,7 @@
         <div class="card" style="width: 18rem;">
             <div class = 'container-img'>
                 <img class="card-img-top" src="assets/img/2.jpg"alt="Card image cap">
-              <i class="far container-icon fa-heart"></i>
+              <i  (click)= "selectTheFavorite()"class="far container-icon fa-heart"></i>
             </div>
             <a href="#" class="btn btn-light"><i class="fas fa-envelope-square"></i></a>
             <div class="card-body">
@@ -46,7 +46,7 @@
         <div class="card" style="width: 18rem;">
             <div class = 'container-img'>
                 <img class="card-img-top" src="assets/img/3.jpg"alt="Card image cap">
-              <i class="far container-icon fa-heart"></i>
+              <i  (click)= "selectTheFavorite()"class="far container-icon fa-heart"></i>
             </div>
             <a href="#" class="btn btn-light"><i class="fas fa-envelope-square"></i></a>
             <div class="card-body">
